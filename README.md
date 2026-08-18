@@ -1,9 +1,20 @@
 # Cat-Out-Of-The-BOx
 
+<a href="https://github.com/jimgranitex-eng/Cat-Out-Of-The-BOx">
+  <img src="https://img.shields.io/github/stars/jimgranitex-eng/Cat-Out-Of-The-BOx?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/jimgranitex-eng/Cat-Out-Of-The-BOx?style=for-the-badge"/>
+</a>
+
+**AI that works from start to end without stopping to prompt.**
+
 Version 2: Continuous AI Worker with Chat History and Offline Support
 
 A tool to help AI models work continuously toward goals without constant prompting/resuming,
 with full chat history tracking and offline model support.
+
+[![GitHub](https://img.shields.io/github/actions/workflow/status/jimgranitex-eng/Cat-Out-Of-The-BOx/main.yml?style=for-the-badge)](https://github.com/jimgranitex-eng/Cat-Out-Of-The-BOx/actions)
+[![GitHub repo size](https://img.shields.io/github/repo-size/jimgranitex-eng/Cat-Out-Of-The-BOx?style=for-the-badge)](https://github.com/jimgranitex-eng/Cat-Out-Of-The-BOx)
+[![GitHub last commit](https://img.shields.io/github/last-commit/jimgranitex-eng/Cat-Out-Of-The-BOx?style=for-the-badge)](https://github.com/jimgranitex-eng/Cat-Out-Of-The-BOx)
 
 ## Features (Version 2)
 
@@ -91,12 +102,34 @@ python worker.py /new "Start fresh with new task context"
 - **Ctrl+C**: Graceful interruption at any time
 - **AI completion**: AI determines task is done and marks it complete
 
-## Files
+## 📂 Repository Files
 
-- `worker.py` - Main continuous worker tool (Version 2)
-- `upload.py` - File upload utility (upload to paste.rs)
-- `README.md` - This file
-- `.chat_history.json` - Chat history (auto-generated, .gitignored)
+All tools and assets are stored in the repository and can be viewed via GitHub:
+
+### Core Tools
+- `worker.py` - Version 2 continuous AI worker (~600 lines)
+- `upload.py` - File upload utility (paste.rs)
+- `mcp.py` - Mini Continuous Planner v2.0.0
+- `metrics_test.py` - Performance testing script
+
+### Visual Assets & Documentation
+- `FLOWCHART_USAGE.md` - Step-by-step usage flow diagram
+- `FLOWCHART_INTERNAL.md` - Internal engine working diagram
+- `LOGO.txt` - ASCII text logo
+- `GRADE.md` - Formal a++ rating document
+- `CHECKLIST.md` - Complete feature inventory & next version plans
+- `README.md` - This file (you are here)
+
+### Generated Output
+- `.chat_history.json` - Auto-generated chat history (gitignored)
+- `mcp_blueprint_*.py` - Generated execution blueprints
+
+### Quick Access
+- 🌐 **View on GitHub**: https://github.com/jimgranitex-eng/Cat-Out-Of-The-BOx
+- 📜 **Raw Logo**: https://raw.githubusercontent.com/jimgranitex-eng/Cat-Out-Of-The-BOx/main/LOGO.txt
+- 📜 **Usage Flowchart**: https://raw.githubusercontent.com/jimgranitex-eng/Cat-Out-Of-The-BOx/main/FLOWCHART_USAGE.md
+- 📜 **Internal Diagram**: https://raw.githubusercontent.com/jimgranitex-eng/Cat-Out-Of-The-BOx/main/FLOWCHART_INTERNAL.md
+- 📜 **Grade Document**: https://raw.githubusercontent.com/jimgranitex-eng/Cat-Out-Of-The-BOx/main/GRADE.md
 
 ## Installing and Using Offline Models
 
