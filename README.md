@@ -6,10 +6,11 @@ A tool to help AI models work continuously toward goals without constant prompti
 
 ## Features (Version 1)
 - **Continuous task execution**: Runs tasks in a loop without stopping to ask "continue?"
-- **Auto-detection of stop conditions**: Checks for practical limits (disk space, time, etc.)
+- **Auto-detection of stop conditions**: Checks for practical limits (disk space, iteration limits, etc.)
 - **Watchdog/alarm clock monitor**: Detects if worker stops and can attempt restart
 - **Keyboard interrupt handling**: Graceful Ctrl+C handling
-- **Configurable iteration limits**: Safety limit to prevent runaway processes
+- **Configurable iteration limits**: Safety limit to prevent runaway processes (default: 100)
+- **File upload utility**: Built-in upload.py for sharing results
 
 ## Usage
 
@@ -22,6 +23,7 @@ python worker.py "Your task description here"
 ```bash
 python worker.py "Analyze the data trends in sales_data.csv and generate a summary"
 python worker.py "Process all files in this directory and upload results"
+python worker.py "Summarize this document and extract key points"
 ```
 
 ### How it works
@@ -45,6 +47,7 @@ python worker.py "Process all files in this directory and upload results"
 - Can be extended for continuous monitoring
 
 ## Files
-- `worker.py` - Main continuous worker tool
-- `upload.py` - File upload utility (original)
+
+- `worker.py` - Main continuous worker tool (Version 1)
+- `upload.py` - File upload utility (upload to paste.rs)
 - `README.md` - This file
