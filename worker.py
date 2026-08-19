@@ -7,6 +7,10 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 
+# ─── Cat-Out-Of-The-BOx Version 2 ─────────────────────────────────────────
+VERSION = "2.1.0"
+PROJECT = "Cat-Out-Of-The-BOx - Continuous AI Worker with Task Tracking"
+GITHUB = "https://github.com/jimgranitex-eng/Cat-Out-Of-The-BOx"
 
 # ─── Configuration ────────────────────────────────────────────────────────
 

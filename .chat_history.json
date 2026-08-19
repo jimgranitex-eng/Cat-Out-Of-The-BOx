@@ -6,11 +6,347 @@
     },
     {
       "role": "assistant",
+      "content": "Iteration 1: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 2: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 3: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 4: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 5: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 6: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 7: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 8: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 9: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 10: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 11: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 12: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 13: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 14: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 15: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 16: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 17: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 18: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 19: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 20: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 21: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 22: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 23: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 24: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 25: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 26: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 27: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 28: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 29: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 30: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 31: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 32: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 33: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 34: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 35: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 36: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 37: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 38: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 39: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 40: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 41: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Iteration 42: Working on task context..."
+    },
+    {
+      "role": "assistant",
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
+    },
+    {
+      "role": "assistant",
       "content": "Iteration 43: Working on task context..."
     },
     {
       "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
     },
     {
       "role": "assistant",
@@ -18,7 +354,7 @@
     },
     {
       "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
     },
     {
       "role": "assistant",
@@ -26,7 +362,7 @@
     },
     {
       "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
     },
     {
       "role": "assistant",
@@ -34,7 +370,7 @@
     },
     {
       "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
     },
     {
       "role": "assistant",
@@ -42,7 +378,7 @@
     },
     {
       "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
     },
     {
       "role": "assistant",
@@ -50,7 +386,7 @@
     },
     {
       "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
     },
     {
       "role": "assistant",
@@ -58,347 +394,11 @@
     },
     {
       "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
+      "content": "[Error]: Error: transformers not installed: \nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n"
     },
     {
       "role": "assistant",
       "content": "Iteration 50: Working on task context..."
-    },
-    {
-      "role": "user",
-      "content": "Task: [Task Type: draw] build me a drawing of a dog with labels [Elements: build, ing, dog]"
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 1: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 2: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 3: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 4: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 5: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 6: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 7: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 8: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 9: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 10: Working on task context..."
-    },
-    {
-      "role": "user",
-      "content": "Task: [Task Type: draw] build me a drawing of a dog with labels [Elements: build, ing, dog]"
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 1: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 2: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 3: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 4: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 5: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 6: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 7: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 8: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 9: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 10: Working on task context..."
-    },
-    {
-      "role": "user",
-      "content": "Task: [Task Type: write] write a python script to process csv data [Elements: python, script, process]"
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 1: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 2: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 3: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 4: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 5: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 6: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 7: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 8: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 9: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 10: Working on task context..."
-    },
-    {
-      "role": "user",
-      "content": "Task: [Task Type: summary] analyze this data and generate a summary report [Elements: n, lyze, this]"
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 1: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 2: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 3: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 4: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 5: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 6: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 7: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 8: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 9: Working on task context..."
-    },
-    {
-      "role": "assistant",
-      "content": "[Error]: Error: Model loading deferred (environment compatibility: SystemError). Supported backends: transformers (offline), ollama, openai API. Run with --model transformers --model-name gpt2 for best compatibility."
-    },
-    {
-      "role": "assistant",
-      "content": "Iteration 10: Working on task context..."
     }
   ]
 }
