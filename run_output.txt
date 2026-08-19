@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Natalie\Documents\Cat-Out-Of-The-BOx\wrapper.py", line 409, in <module>
-    main()
-  File "C:\Users\Natalie\Documents\Cat-Out-Of-The-BOx\wrapper.py", line 375, in main
-    result = run_worker_with_tracking(
-             ^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: run_worker_with_tracking() got an unexpected keyword argument 'continue_task'
