@@ -29,7 +29,7 @@ Key behaviors:
 - Use chat history to maintain context across iterations
 - Be helpful, harmless, and honest
 
-Always work toward completing the user's task unless stopped."""
+Always work toward completing the user's task unless stopped. Update task state after each iteration with current progress, remaining work, and timeline."""
 
 
 # ─── Chat History Management ──────────────────────────────────────────────
@@ -77,6 +77,163 @@ class ChatHistory:
         """Clear history (start new)."""
         self.messages = [{"role": "system", "content": SYSTEM_PROMPT}]
         self.save()
+
+
+# ─── Task State Management ────────────────────────────────────────────────
+
+class TaskState:
+    """Tracks task progression: input, goal, target, task, checklist, timeline."""
+
+    def __init__(self):
+        self.input = ""
+        self.goal = ""
+        self.target = ""
+        self.current_task = ""
+        self.checklist = []
+        self.timeline = []
+        self.iteration = 0
+        self.save()
+
+    def to_dict(self):
+        return {
+            "input": self.input,
+            "goal": self.goal,
+            "target": self.target,
+            "current_task": self.current_task,
+            "checklist": self.checklist,
+            "timeline": self.timeline,
+            "iteration": self.iteration,
+        }
+
+    def from_dict(self, data):
+        self.input = data.get("input", "")
+        self.goal = data.get("goal", "")
+        self.target = data.get("target", "")
+        self.current_task = data.get("current_task", "")
+        self.checklist = data.get("checklist", [])
+        self.timeline = data.get("timeline", [])
+        self.iteration = data.get("iteration", 0)
+
+    def update(self, input_text, goal, target, current_task, checklist_item=None):
+        """Update task state with new information."""
+        self.input = input_text
+        self.goal = goal
+        self.target = target
+        self.current_task = current_task
+        self.iteration += 1
+
+        # Add to timeline
+        self.timeline.append({
+            "iteration": self.iteration,
+            "input": input_text[:50] + "..." if len(input_text) > 50 else input_text,
+            "task": current_task,
+            "goal": goal[:50] + "..." if len(goal) > 50 else goal,
+            "target": target[:50] + "..." if len(target) > 50 else target,
+        })
+
+        # Update checklist
+        if checklist_item:
+            if isinstance(self.checklist, list):
+                if not self.checklist:
+                    self.checklist = [{"item": checklist_item, "completed": False}]
+                elif self.checklist[-1].get("completed", False):
+                    self.checklist.append({"item": checklist_item, "completed": False})
+
+        self.save()
+
+    def save(self):
+        """Save task state to file."""
+        try:
+            with open(".task_state.json", "w", encoding="utf-8") as f:
+                json.dump(self.to_dict(), f, indent=2, ensure_ascii=False)
+        except Exception:
+            pass
+
+    def load(self):
+        """Load task state from file."""
+        try:
+            if os.path.exists(".task_state.json"):
+                with open(".task_state.json", "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                self.from_dict(data)
+        except Exception:
+            pass
+
+
+class EnhancedChatHistory:
+    """Extended chat history with task tracking integration."""
+
+    def __init__(self, history_file=".chat_history.json", task_state_file=".task_state.json"):
+        self.history_file = history_file
+        self.task_state_file = task_state_file
+        self.messages = []
+        self.task_state = TaskState()
+        self.load()
+
+    def load(self):
+        """Load chat history and task state."""
+        self.task_state.load()
+        try:
+            if os.path.exists(self.history_file):
+                with open(self.history_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    self.messages = data.get("messages", [])
+                if len(self.messages) > 100:
+                    self.messages = self.messages[-100:]
+            else:
+                self.messages = [
+                    {"role": "system", "content": SYSTEM_PROMPT}
+                ]
+        except Exception as e:
+            print(f"[WARN] Could not load chat history: {e}")
+            self.messages = [
+                {"role": "system", "content": SYSTEM_PROMPT}
+            ]
+
+    def save(self):
+        """Save chat history and task state."""
+        try:
+            with open(self.history_file, "w", encoding="utf-8") as f:
+                json.dump({"messages": self.messages}, f, indent=2, ensure_ascii=False)
+            self.task_state.save()
+        except Exception as e:
+            print(f"[WARN] Could not save chat history: {e}")
+
+    def add(self, role, content):
+        """Add a message to history, updating task state if needed."""
+        self.messages.append({"role": role, "content": content})
+        if len(self.messages) > 100:
+            self.messages = [self.messages[0]] + self.messages[-99:]
+        if role == "user" and ("task" in content.lower() or "goal" in content.lower() or "target" in content.lower()):
+            self._extract_task_info(content)
+        self.task_state.save()
+
+    def _extract_task_info(self, content):
+        """Extract input, goal, target, task from user content."""
+        lines = content.split("\n")
+        for line in lines:
+            line = line.strip()
+            if line.lower().startswith("input:"):
+                self.task_state.input = line[6:].strip()
+            elif line.lower().startswith("goal:"):
+                self.task_state.goal = line[5:].strip()
+            elif line.lower().startswith("target:"):
+                self.task_state.target = line[7:].strip()
+            elif line.lower().startswith("task:"):
+                self.task_state.current_task = line[5:].strip()
+        self.task_state.save()
+
+    def get_task_state(self):
+        """Return current task state summary."""
+        return {
+            "input": self.task_state.input[:100] + "..." if len(self.task_state.input) > 100 else self.task_state.input,
+            "goal": self.task_state.goal[:100] + "..." if len(self.task_state.goal) > 100 else self.task_state.goal,
+            "target": self.task_state.target[:100] + "..." if len(self.task_state.target) > 100 else self.task_state.target,
+            "current_task": self.task_state.current_task[:100] + "..." if len(self.task_state.current_task) > 100 else self.task_state.current_task,
+            "iteration": self.task_state.iteration,
+            "timeline_count": len(self.task_state.timeline),
+            "checklist": self.task_state.checklist,
+        }
 
 
 # ─── AI Model Backends ────────────────────────────────────────────────────
