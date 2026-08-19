@@ -12,6 +12,29 @@ VERSION = "2.1.0"
 PROJECT = "Cat-Out-Of-The-BOx - Continuous AI Worker with Task Tracking"
 GITHUB = "https://github.com/jimgranitex-eng/Cat-Out-Of-The-BOx"
 
+# ─── Model Slicing / MoE Routing ─────────────────────────────────────────────
+# Configuration for model slicing and Mixture-of-Experts routing
+# Allows using small models (1b-2b) to route/activate specific layers of larger models (80b+)
+MODEL_SLICING = {
+    "enabled": True,
+    "router_model": "qwen2.5-coder:1.5b",  # Small model used as router
+    "target_models": {
+        "code": "qwen3-coder:30b",         # 30B for code tasks
+        "analysis": "qwen3.6:latest",       # 23B for analysis
+        "summarization": "gemma4:latest",   # 9.6B for summarization
+        "vision": "gemma4:26b",            # 26B for vision tasks
+        "general": "phi:latest"            # 1.6B for general tasks
+    },
+    "slice_strategy": "layer_selection",   # How to slice: layer_selection, parameter_selection, attention_selection
+    "max_gpu_memory_gb": 24,              # Maximum GPU memory available
+    "min_model_size_b": 1,                 # Minimum model size in billions to consider
+    "max_model_size_b": 80,                # Maximum model size in billions supported
+    "routing_metrics": ["task_type", "context_size", "quality_requirement", "speed_requirement"],
+    "fallback_to_router": True,            # If target model fails, use router model
+    "memory_optimization": True,           # Enable memory optimization techniques
+    "quantization_support": ["Q4_K_M", "Q5_K_M", "Q6_K", "MXFP4"]  # Supported quantizations
+}
+
 # ─── Configuration ────────────────────────────────────────────────────────
 
 DEFAULT_MODEL = "facebook/opt-iml-30b"  # Will try smaller if fails
